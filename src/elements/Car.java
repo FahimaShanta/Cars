@@ -19,12 +19,12 @@ public class Car{
         this.number = number;
     }
 
-    public void run() {
+    public void run()  {
         if(this.direction == 1) {
             this.possition.x++;
-        } else if(this.direction == 2) {
+        } else if(this.direction == 2)   {
             this.possition.y++;
-        } else if (this.direction ==3 ) {
+        } else if (this.direction ==3 )  {
             this.possition.x--;
         } else if (this.direction == 4) {
             this.possition.y--;
